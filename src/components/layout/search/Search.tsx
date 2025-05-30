@@ -10,7 +10,11 @@ export const Search = () => {
 
   return (
     <form className="searchComponent">
-      <input onChange={serchFood} type="text" placeholder="Buscar receta..." />
+      <input
+        onChange={serchFood}
+        type="text"
+        placeholder="Buscar buena aseadora..."
+      />
       <button>
         <img src={search} alt="Icono para buscar" />
       </button>
