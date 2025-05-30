@@ -1,12 +1,24 @@
-# React + Vite
+# Easy Food app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Web
 
-Currently, two official plugins are available:
+- Visita el proyecto desplegado en [aquí](https://easyfoodapp.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Consideraciones en ambiente de desarrollo
 
-## Expanding the ESLint configuration
+- Trabajado con React 18
+- Lenguaje usado TypeScript
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Proyecto educativo
+
+- **Institución:** Servicio Nacional de aprendizaje (SENA)
+- **Componente:** Técnico
+- **Ficha:** 2675817
+- **Instructora:** Ana Milena Mosquera
+
+### Estudiantes:
+
+- Luis Espejo [GitHub](https://github.com/espejolui/)
+- Alejandra Yepes
+- Camilo Bolivar
+- Julian Bedoya

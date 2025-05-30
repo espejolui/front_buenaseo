@@ -1,0 +1,30 @@
+.searchComponent {
+  display: flex;
+  width: 300px;
+  height: 25px;
+  padding: 10px;
+  align-content: center;
+  justify-content: center;
+  border-radius: 25px;
+  background-color: var(--pink);
+  
+  input {
+    width: 80%;
+    font-weight: 900;
+    color: var(--green);
+    background-color: transparent;
+  }
+  
+  button {
+    img {
+      width: 100%;
+    }
+  }
+  
+}
+
+@media (width <= 768px ){
+  .searchComponent{
+    width: 180px;
+  }
+}

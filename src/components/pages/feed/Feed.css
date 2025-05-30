@@ -1,0 +1,48 @@
+.feed {
+  display: grid;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 60px;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+  justify-content: center;
+
+  article {
+    display: grid;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 var(--shadow2), 0 6px 20px 0 var(--shadow19);
+
+    img {
+      border-radius: 10px 10px 0 0;
+      width: 300px;
+      height: 300px;
+    }
+
+    div {
+      display: grid;
+      padding: 10px 5px;
+
+      h2{
+        font-size: 17px;
+      }
+
+      span {
+        text-transform: capitalize;
+      }
+
+      a {
+        display: flex;
+        width: 120px;
+        margin: auto;
+        margin-top: 12px;
+        padding: 5px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1rem;
+        color: white;
+        background-color: var(--green);
+      }
+    }
+  }
+}
