@@ -11,7 +11,7 @@ function App() {
   // 2. La anotación de tipo (route: { props: { path: string } }) indica que el parámetro route es un objeto que tiene una propiedad props, que a su vez tiene una propiedad path de tipo string.
   const isValidRoute = routes.some(
     (route: { props: { path: string } }) =>
-      route.props.path === location.pathname
+      route.props.path === location.pathname,
   );
 
   if (isValidRoute) {
