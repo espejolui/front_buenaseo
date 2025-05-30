@@ -8,7 +8,7 @@ export const RoutesMain = () => {
     <>
       <Routes>
         <Route path="/" element={<Feed />} />
-        <Route path="/Inicio" element={<Feed />} />
+        <Route path="/inicio" element={<Feed />} />
         <Route path="/calendario" element={<Calendar />} />
         <Route path="*" element={<Error />} />
       </Routes>
