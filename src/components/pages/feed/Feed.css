@@ -135,3 +135,17 @@
     }
   }
 }
+
+.contratar {
+  background: var(--green);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 24px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.contratar:hover {
+  background: #218c5a; /* O un tono más oscuro si lo prefieres */
+}

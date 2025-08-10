@@ -9,7 +9,7 @@
   background-color: var(--pink);
   
   input {
-    width: 80%;
+    width: 100%;
     font-weight: 900;
     color: var(--green);
     background-color: transparent;
