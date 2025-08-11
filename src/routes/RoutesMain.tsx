@@ -1,7 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { Perfil } from "../components/pages/perfil/Perfil";
 import { Feed } from "../components/pages/feed/Feed";
-import { Calendar } from "../components/pages/calendar/Calendar";
 import { Error } from "../components/pages/error/Error";
 
 export const RoutesMain = () => {
@@ -10,7 +9,6 @@ export const RoutesMain = () => {
       <Routes>
         <Route path="/" element={<Feed />} />
         <Route path="/inicio" element={<Feed />} />
-        <Route path="/calendario" element={<Calendar />} />
         <Route path="/perfil/:nombre" element={<Perfil />} />
         <Route path="*" element={<Error />} />
       </Routes>
